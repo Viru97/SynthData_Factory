@@ -74,4 +74,4 @@ python src/visualize.py
 
 📊 Results
 
-![image alt](https://github.com/Viru97/SynthData_Factory/blob/3ff428182fed1675ccebec46b3dcf586098ed4f6/debug_vis_rgb_0000.png)
+![image alt](https://github.com/Viru97/SynthData_Factory/raw/3ff428182fed1675ccebec46b3dcf586098ed4f6/debug_vis_rgb_0000.png)
