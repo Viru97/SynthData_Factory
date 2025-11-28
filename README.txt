@@ -10,7 +10,7 @@
 ---
 
 ## 📸 The Pipeline in Action
-![Simulation Demo](https://github.com/Viru97/SynthData_Factory/blob/319f771024aaaa311c05d6000bfeb24f2e20f59d/ezgif.com-optimize.gif)
+![gif alt](https://github.com/Viru97/SynthData_Factory/blob/319f771024aaaa311c05d6000bfeb24f2e20f59d/ezgif.com-optimize.gif)
 
 ## 🚀 Project Overview
 Acquiring labeled data for industrial environments is expensive and slow. This project implements a **Digital Twin** workflow to generate infinite training data for Object Detection models.
