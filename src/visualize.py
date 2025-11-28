@@ -4,7 +4,7 @@ import glob
 import numpy as np
 
 # --- CONFIGURATION ---
-DATA_DIR = "/home/apurv/SynthData_Factory/output/fancy_run"  # Make sure this matches your new output folder
+DATA_DIR = "/path_to/SynthData_Factory/output/fancy_run"  # Make sure this matches your new output folder
 
 
 def visualize_dataset():

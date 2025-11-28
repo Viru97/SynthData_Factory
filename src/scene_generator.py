@@ -3,7 +3,7 @@ from omni.isaac.core.utils.nucleus import get_assets_root_path
 # --- CONFIGURATION ---
 # IMPORTANT: Update this path to match your local folder structure!
 # Use forward slashes (/) even on Windows.
-OUTPUT_DIR = "/home/apurv/SynthData_Factory/output"
+OUTPUT_DIR = "/path_to/SynthData_Factory/output"
 NUM_FRAMES = 100  # How many images to generate [cite: 11]
 
 # --- HELPER: FIND ASSETS ---

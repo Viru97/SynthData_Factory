@@ -4,7 +4,7 @@ import os
 import numpy as np
 
 # --- CONFIGURATION ---
-DATA_DIR = "/home/apurv/SynthData_Factory/output/fancy_run"
+DATA_DIR = "/path_to/SynthData_Factory/output/fancy_run"
 IMG_WIDTH = 1024
 IMG_HEIGHT = 1024
 TARGET_LABEL = "industrial_box"
