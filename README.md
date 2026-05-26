@@ -1,4 +1,4 @@
-# 🏭 SynthData-Factory: Industrial Sim2Real Pipeline
+# 🏭 SynthData Factory: Isaac Sim Synthetic Data Pipeline for Robotic Perception
 
 [![Isaac Sim](https://img.shields.io/badge/Sim-NVIDIA%20Isaac%20Sim-green)](https://developer.nvidia.com/isaac-sim)
 [![Python](https://img.shields.io/badge/Code-Python%203.10-blue)](https://www.python.org/)
@@ -47,8 +47,9 @@ SynthData-Factory/
 │   └── visualize.py         # Verification tool (The "Quality Control")
 ├── output/                  # Generated Dataset (Images + Labels)
 └── README.md
+```
 
-⚙️ How to Run
+## ⚙️ How to Run
 
 1. Generate the Simulation
 
@@ -72,6 +73,15 @@ Run the visualizer to inspect the bounding boxes:
 
 python src/visualize.py
 
-```
-📊 Results
+
+## 📊 Results
 ![image alt](https://github.com/Viru97/SynthData_Factory/blob/6bd2316ed19ca9290b3e160f574a46a5e3a2588b/rgb_0000.png) ![image alt](https://github.com/Viru97/SynthData_Factory/blob/3ff428182fed1675ccebec46b3dcf586098ed4f6/debug_vis_rgb_0000.png)
+
+## Why this project matters
+
+This project demonstrates an end-to-end robotics perception workflow:
+- digital twin scene generation in NVIDIA Isaac Sim
+- domain randomization for sim-to-real robustness
+- automatic annotation using semantic segmentation
+- YOLOv8-compatible dataset export
+- quality verification with bounding-box visualization
