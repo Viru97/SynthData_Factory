@@ -1,0 +1,6 @@
+path: /home/apurv/SynthData_Factory/output/fancy_run  # <--- UPDATE THIS PATH
+train: images  # We will map this below
+val: images    # Using same data for val just for testing
+
+names:
+  0: industrial_box
